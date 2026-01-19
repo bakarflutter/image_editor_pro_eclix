@@ -144,7 +144,7 @@ class ImageEditorPainter extends CustomPainter {
   }
 
   void _drawCropOverlay(Canvas canvas, Size size) {
-    final darkPaint = Paint()..color = Colors.black.withOpacity(0.5);
+    final darkPaint = Paint()..color = Colors.black.withValues(alpha: .5);
 
     canvas.drawRect(Rect.fromLTWH(0, 0, size.width, cropRect!.top), darkPaint);
     canvas.drawRect(
@@ -177,7 +177,7 @@ class ImageEditorPainter extends CustomPainter {
     canvas.drawRect(cropRect!, borderPaint);
 
     final gridPaint = Paint()
-      ..color = Colors.white.withOpacity(0.5)
+      ..color = Colors.white.withValues(alpha: .5)
       ..strokeWidth = 1;
 
     for (int i = 1; i < 3; i++) {

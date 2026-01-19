@@ -1,4 +1,4 @@
-library image_editor_pro_eclix;
+// library image_editor_pro_eclix;
 
 export 'src/widgets/image_editor.dart';
 export 'src/models/editor_state.dart';

@@ -110,7 +110,7 @@ class ImageEditorIcons {
 
 class _ImageEditorState extends State<ImageEditor> {
   final GlobalKey _canvasKey = GlobalKey();
-  ui.Image? _originalImage;
+  // ui.Image? _originalImage;
   ui.Image? _displayImage;
 
   Rect? _cropRect;
@@ -136,14 +136,14 @@ class _ImageEditorState extends State<ImageEditor> {
 
   late ImageEditorColors _colors;
   late ImageEditorLabels _labels;
-  late ImageEditorIcons _icons;
+  // late ImageEditorIcons _icons;
 
   @override
   void initState() {
     super.initState();
     _colors = widget.colors ?? const ImageEditorColors();
     _labels = widget.labels ?? const ImageEditorLabels();
-    _icons = widget.icons ?? const ImageEditorIcons();
+    // _icons = widget.icons ?? const ImageEditorIcons();
     _loadImage();
   }
 
@@ -154,7 +154,7 @@ class _ImageEditorState extends State<ImageEditor> {
 
     setState(() {
       if (widget.previousState != null) {
-        _originalImage = widget.previousState!.originalImage;
+        // _originalImage = widget.previousState!.originalImage;
         _displayImage = widget.previousState!.originalImage;
         _cropRect = widget.previousState!.cropRect;
         _rotationTurns = widget.previousState!.rotationTurns;
@@ -163,7 +163,7 @@ class _ImageEditorState extends State<ImageEditor> {
         _brightness = widget.previousState!.brightness;
         _contrast = widget.previousState!.contrast;
       } else {
-        _originalImage = frame.image;
+        // _originalImage = frame.image;
         _displayImage = frame.image;
       }
 
