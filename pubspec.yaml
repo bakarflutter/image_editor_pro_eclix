@@ -2,7 +2,7 @@ name: image_editor_pro_eclix
 
 
 description: "Image Editor Pro EclixTech"
-version: 0.0.2
+version: 0.0.3
 homepage: https://github.com/bakarflutter/image_editor_pro_eclix
 repository: https://github.com/bakarflutter/image_editor_pro_eclix
 environment:
