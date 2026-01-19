@@ -1,8 +1,10 @@
 name: image_editor_pro_eclix
+
+
 description: "A new Flutter package project."
 version: 0.0.1
-homepage:
-
+homepage: https://github.com/bakarflutter/image_editor_pro_eclix
+repository: https://github.com/bakarflutter/image_editor_pro_eclix
 environment:
   sdk: ^3.10.3
   flutter: ">=1.17.0"
