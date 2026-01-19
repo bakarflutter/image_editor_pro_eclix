@@ -6,7 +6,7 @@ import 'dart:math' as math;
 
 import '../models/editor_state.dart';
 import '../models/editor_result.dart';
-import '../utils/no_thumb_slider.dart';
+
 import 'image_editor_painter.dart';
 
 /// A comprehensive image editor widget with various editing capabilities
