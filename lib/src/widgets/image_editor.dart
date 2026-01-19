@@ -876,10 +876,7 @@ class _ImageEditorState extends State<ImageEditor> {
                           data: SliderTheme.of(context).copyWith(
                             trackHeight: 15,
                             thumbColor: Colors.white,
-                            thumbShape: const BottomThumbShape(
-                              thumbRadius: 7,
-                              verticalOffset: 10,
-                            ),
+                          
                             overlayShape: SliderComponentShape.noOverlay,
                             activeTrackColor: Colors.grey.shade600,
                             inactiveTrackColor: Colors.grey.shade200,
@@ -897,10 +894,7 @@ class _ImageEditorState extends State<ImageEditor> {
                           data: SliderTheme.of(context).copyWith(
                             trackHeight: 15,
                             thumbColor: Colors.white,
-                            thumbShape: const BottomThumbShape(
-                              thumbRadius: 7,
-                              verticalOffset: 10,
-                            ),
+                           
                             overlayShape: SliderComponentShape.noOverlay,
                             activeTrackColor: Colors.grey.shade600,
                             inactiveTrackColor: Colors.grey.shade200,
@@ -936,10 +930,7 @@ class _ImageEditorState extends State<ImageEditor> {
                           data: SliderTheme.of(context).copyWith(
                             trackHeight: 15,
                             thumbColor: Colors.white,
-                            thumbShape: const BottomThumbShape(
-                              thumbRadius: 7,
-                              verticalOffset: 10,
-                            ),
+                          
                             overlayShape: SliderComponentShape.noOverlay,
                             activeTrackColor: Colors.grey.shade600,
                             inactiveTrackColor: Colors.grey.shade200,
