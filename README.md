@@ -1,4 +1,4 @@
-# Image Editor Pro
+# Image Editor Pro EclixTech
 
 A comprehensive Flutter image editor package with advanced editing capabilities including crop, rotate, flip, erase, brightness and contrast adjustments.
 
@@ -25,7 +25,7 @@ Add this to your package's `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  image_editor_pro: ^0.0.1
+  image_editor_pro_eclix: ^0.0.1
 ```
 
 Then run:
@@ -39,7 +39,7 @@ flutter pub get
 ### Basic Usage
 
 ```dart
-import 'package:image_editor_pro/image_editor_pro.dart';
+import 'package:image_editor_pro_eclix/image_editor_pro_eclix.dart';
 import 'dart:io';
 
 // Open the editor
@@ -194,15 +194,6 @@ flutter pub get
 flutter run
 ```
 
-## Requirements
-
-- Flutter SDK: >=3.0.0
-- Dart SDK: >=3.0.0
-
-## Dependencies
-
-- flutter_svg: ^2.0.10+1
-
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
@@ -217,4 +208,4 @@ See [CHANGELOG.md](CHANGELOG.md) for version history.
 
 ## Support
 
-If you encounter any issues or have questions, please file an issue on the [GitHub repository](https://github.com/yourusername/image_editor_pro/issues).
+If you encounter any issues or have questions, please file an issue on the [GitHub repository](https://github.com/yourusername/image_editor_pro_eclix/issues).

@@ -936,8 +936,8 @@ class _ImageEditorState extends State<ImageEditor> {
                             inactiveTrackColor: Colors.grey.shade200,
                           ),
                           child: Slider(
-                            min: 1,
-                            max: 50,
+                            min: 20,
+                            max: 200,
                             value: _eraseStrokeWidth,
                             onChanged: (value) =>
                                 setState(() => _eraseStrokeWidth = value),
