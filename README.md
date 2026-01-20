@@ -1,6 +1,8 @@
-# Image Editor Pro EclixTech
+Image Editor Pro EclixTech is a modern **Flutter image editor library** for Android, iOS, Web, Windows, macOS, and Linux.
+It provides advanced image editing features such as crop, rotate, flip, erase, brightness adjustment, and undo/redo support.
 
-A comprehensive Flutter image editor package with advanced editing capabilities including crop, rotate, flip, erase, brightness and contrast adjustments.
+This package is ideal for Flutter developers building photo editing, document signing, or image annotation applications.
+
 
 ## Features
 
