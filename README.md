@@ -3,6 +3,16 @@ It provides advanced image editing features such as crop, rotate, flip, erase, b
 
 This package is ideal for Flutter developers building photo editing, document signing, or image annotation applications.
 
+## Screenshots
+
+| Flip/Rotate |  Crop  |
+|-------------|--------|
+| ![](https://raw.githubusercontent.com/bakarflutter/image_editor_pro_eclix/main/screenshots/1.png) | ![](https://raw.githubusercontent.com/bakarflutter/image_editor_pro_eclix/main/screenshots/2.png) |
+
+| Erase | Adjustments |
+|-------|-------------|
+| ![](https://raw.githubusercontent.com/bakarflutter/image_editor_pro_eclix/main/screenshots/3.png) | ![](https://raw.githubusercontent.com/bakarflutter/image_editor_pro_eclix/main/screenshots/4.png) |
+
 
 ## Features
 
